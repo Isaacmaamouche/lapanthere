@@ -93,6 +93,7 @@ a:hover {
 .texture-paper::before {
   background: url("img/texture-paper.png");
   background-size: 280px 280px;
+  z-index: -1;
 }
 
 .b-parallax {
@@ -653,7 +654,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #575757;
 }
 
 .container {
@@ -775,15 +776,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #ad4e1f;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: white !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
+  background: #ad4e1f;
   color: #ffffff !important;
 }
 
@@ -801,7 +802,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #ad4e1f !important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1060,4 +1061,9 @@ div.citation span.quoteSource {
   display: block;
   font-size: 18px;
   line-height: 1.4em;
+}
+
+footer a,
+footer span {
+  color: white;
 }
