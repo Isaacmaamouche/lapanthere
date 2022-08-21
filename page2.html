@@ -2,25 +2,48 @@
 <html lang="Default">
   <head>
     <meta charset="utf-8" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
+    <meta
+      name="keywords"
+      content="contacter agence la panthère, demander un devis agence la panthère, seo, création site web, création site internet, agence design lyon, designer web lyon, création graphique, refonte graphique, agence la panthère lyon"
+    />
+
+    <meta
+      name="description"
+      content="Contacter les équipes de La Panthère, l'agence de web design située à Lyon"
+    />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, viewport-fit=cover"
     />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
 
-    <script src="./js/jquery-2.1.0.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/blocs.min.js"></script>
-    <script src="./js/jqBootstrapValidation.js"></script>
-    <script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+      defer
+    ></script>
+    <script src="./js/blocs.js" defer></script>
+    <script src="./js/jquery.touchSwipe.js" defer></script>
+    <script src="./js/gmaps.js" defer></script>
+
+    <title>Contacter La Panthère - Agence de web design à Lyon</title>
 
     <!-- Analytics -->
 
@@ -30,11 +53,15 @@
     <!-- Principal conteneur -->
     <div class="page-container">
       <!-- bloc-0 -->
-      <div class="bloc bgc-white l-bloc" id="bloc-0">
+      <header class="bloc bgc-white l-bloc" id="bloc-0">
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <a class="navbar-brand" href="index.html">
+              <a
+                class="navbar-brand"
+                href="/"
+                title="logo renvoyant vers la page d'accueil"
+              >
                 <picture>
                   <source
                     type="image/webp"
@@ -46,7 +73,7 @@
                   />
                   <img
                     src="img/agence-la-panthere-monochrome.svg"
-                    alt="paris web design logo agence web meilleure agence"
+                    alt="lyon web design logo agence web meilleure agence"
                     height="40"
                   />
                 </picture>
@@ -58,25 +85,27 @@
                 data-toggle="collapse"
                 data-target=".navbar-1"
               >
-                <span class="sr-only">Toggle navigation</span
-                ><span class="icon-bar"></span><span class="icon-bar"></span
-                ><span class="icon-bar"></span>
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
               </button>
             </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
                 <li>
-                  <a href="index.html">Accueil</a>
+                  <a href="/" title="lien vers la page d'accueil">Accueil</a>
                 </li>
-                <li></li>
                 <li>
-                  <a href="page2.html">page2 &gt;</a>
+                  <a href="page2.html" title="lien vers la page de contact"
+                    >Nous contacter</a
+                  >
                 </li>
               </ul>
             </div>
           </nav>
         </div>
-      </div>
+      </header>
       <!-- bloc-0 END -->
 
       <!-- bloc-6 -->
@@ -167,9 +196,13 @@
       <!-- bloc-7 END -->
 
       <!-- ScrollToTop Button -->
-      <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"
-        ><span class="fa fa-chevron-up"></span
-      ></a>
+      <a
+        title="remonter en haut de la page"
+        class="bloc-button btn btn-d scrollToTop"
+        onclick="scrollToTarget('1')"
+      >
+        <span class="fa-solid fa-chevron-up"></span>
+      </a>
       <!-- ScrollToTop Button END-->
 
       <!-- Footer - bloc-8 -->
@@ -183,30 +216,46 @@
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-twitter icon-md"></span
-                    ></a>
+                    <a
+                      class="social"
+                      href="index.html"
+                      title="Décrouvrez notre page twitter"
+                    >
+                      <span class="fa-brands fa-twitter icon-md"></span>
+                    </a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-facebook icon-md"></span
-                    ></a>
+                    <a
+                      class="social"
+                      href="index.html"
+                      title="Décrouvrez notre page facebook"
+                    >
+                      <span class="fa-brands fa-facebook icon-md"></span>
+                    </a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-dribbble icon-md"></span
-                    ></a>
+                    <a
+                      class="social"
+                      href="index.html"
+                      title="Décrouvrez notre page dribble"
+                    >
+                      <span class="fa-brands fa-dribbble icon-md"></span>
+                    </a>
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
-                    <a class="social" href="index.html"
-                      ><span class="fa fa-instagram icon-md"></span
-                    ></a>
+                    <a
+                      class="social"
+                      href="index.html"
+                      title="Décrouvrez notre page instagram"
+                    >
+                      <span class="fa-brands fa-instagram icon-md"></span>
+                    </a>
                   </div>
                 </div>
               </div>
