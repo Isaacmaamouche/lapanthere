@@ -74,7 +74,11 @@ a:hover {
 }
 
 .texture-paper::before {
-  background: url("img/texture-paper.png");
+  background-image: url("img/texture-paper.png");
+  background-image: image-set(
+    url("img/texture-paper.png") 1x,
+    url("img/texture-paper.webp") 1x
+  );
   background-size: 280px 280px;
   z-index: -1;
 }
@@ -331,6 +335,7 @@ label,
 .btn,
 a {
   font-family: "helvetica";
+  font-display: swap;
   font-weight: 400;
   color: #575757;
 }

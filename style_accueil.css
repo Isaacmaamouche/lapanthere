@@ -312,6 +312,8 @@ a[data-lightbox]:hover::before {
   content: "+";
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
+  font-display: swap;
+
   font-size: 32px;
   width: 50px;
   height: 50px;
@@ -344,6 +346,7 @@ label,
 .btn,
 a {
   font-family: "helvetica";
+  font-display: swap;
   font-weight: 400;
   color: #575757;
 }
@@ -468,14 +471,26 @@ h1 {
 
 .bg-lines-h2-bg {
   background-image: url("img/lines-h2-bg.png");
+  background-image: image-set(
+    url("img/lines-h2-bg.png") 1x,
+    url("img/lines-h2-bg.webp") 1x
+  );
 }
 
 .bg-banniere {
   background-image: url("img/agence-la-panthere-banner.jpg");
+  background-image: image-set(
+    url("img/agence-la-panthere-banner.jpg") 1x,
+    url("img/agence-la-panthere-banner.webp") 1x
+  );
 }
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.jpg");
+  background-image: image-set(
+    url("img/image-de-presentation.jpg") 1x,
+    url("img/image-de-presentation.webp") 1x
+  );
 }
 
 @media (max-width: 1024px) {
