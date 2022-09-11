@@ -609,6 +609,11 @@ div.citation p q {
   font-size: 18px;
   line-height: 1.4em;
 }
+div.citation p q:before,
+div.citation p q:after {
+  content: '"';
+}
+
 div.citation span.quoteSource {
   display: block;
   font-size: 18px;
